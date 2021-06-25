@@ -4,10 +4,10 @@
 
 replicaCount: 1
 image:
-  repository: docker.io/teamcloudyuga/rsvpapp
+  repository: dummy
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "3f7d3143a103b7c753ea3fe6de9cf9994346aa87"
+  tag: "9baddb62b23642c55a7bd5a857cc28e4efe8737b"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
