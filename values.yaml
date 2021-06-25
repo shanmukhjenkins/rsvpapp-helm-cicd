@@ -4,10 +4,10 @@
 
 replicaCount: 1
 image:
-  repository: dummy
+  repository: rsvp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "9baddb62b23642c55a7bd5a857cc28e4efe8737b"
+  tag: "44d6bb15ffbf774bbd95ab88a53f6fdca4288692"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
